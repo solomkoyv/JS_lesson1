@@ -1,7 +1,7 @@
 var n = 33721;
 var sum = 1;
-n = ('' + n).split('');
-n.forEach(function (e) {
+n = ("" + n).split("");
+n.forEach(function(e) {
   sum *= e;
 });
 console.log(`Метод №1 произведение чисел в числе 33721 = ${sum}`);
@@ -12,6 +12,6 @@ for (var i = 0; i <= 3; i++) {
   result *= sum;
 }
 console.log(`Результат возведения в стпень 3 = ${result}`);
-result = ('' + result).split('');
+result = ("" + result).split("");
 console.log(`Первое число = ${result[0]}`);
 console.log(`Второе число = ${result[1]}`);
